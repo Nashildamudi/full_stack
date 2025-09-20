@@ -2,13 +2,13 @@ let per = 75;
 let grade = "";
 
 if (per >= 80) {
-    grade = "A"
-}  else if (per >= 60) {
-    grade = "B"
-}  else if (per >= 40) {
-    grade = "C"
-}  else {
-    grade = "D"
+  grade = "A";
+} else if (per >= 60) {
+  grade = "B";
+} else if (per >= 40) {
+  grade = "C";
+} else {
+  grade = "D";
 }
 
 console.log(grade);
@@ -28,6 +28,7 @@ switch (grade) {
   case "D":
     result = "you failed";
   default:
+    "INVAID INPUT";
     break;
 }
 console.log(result);
